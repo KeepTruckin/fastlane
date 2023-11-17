@@ -2,7 +2,6 @@ require "fastlane/cli_tools_distributor"
 
 module Fastlane
   class PluginManager
-    require "bundler"
 
     PLUGINFILE_NAME = "Pluginfile".freeze
     DEFAULT_GEMFILE_PATH = "Gemfile".freeze
